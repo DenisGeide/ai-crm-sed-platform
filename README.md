@@ -112,23 +112,9 @@ A short demo scenario is described in [docs/demo-flow.md](docs/demo-flow.md):
 5. PDF document is generated and linked to the ticket.
 6. Audit, realtime updates and metrics are shown.
 
-## Code Snippets
-
-Safe public snippets should be placed in [snippets/](snippets/).
-
-Recommended snippets:
-
-- FastAPI route with tenant-aware dependency.
-- RBAC/JWT access check.
-- RAG search/query flow with pgvector.
-- Document status JSON configuration.
-- Background job lifecycle example.
-
-See [snippets/README.md](snippets/README.md) before publishing code.
-
 ## Public GitHub Note
 
-Most of this project was developed as a local/commercial R&D product. This public repository is intended as a clean showcase: architecture, product description, screenshots, sanitized code snippets and demo materials.
+Most of this project was developed as a local/commercial R&D product. This public repository is intended as a clean showcase: architecture, product description, screenshots, technical snippets and demo materials.
 
 RU: Это публичная showcase-версия проекта. Приватные данные, секреты, production-конфигурации и чувствительная бизнес-логика не публикуются.
 
