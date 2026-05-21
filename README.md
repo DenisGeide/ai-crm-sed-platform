@@ -65,18 +65,43 @@ flowchart LR
 
 More details: [docs/architecture.md](docs/architecture.md)
 
-## Screenshots To Add
+## Screenshots
 
-Planned public screenshots are listed in [docs/screenshot-plan.md](docs/screenshot-plan.md).
+Public demo screenshots are available in the [`screenshots/`](screenshots/) folder.  
+All screenshots use demo data and local test scenarios.
 
-Recommended preview set:
+### CRM Dashboard
 
-- `screenshots/architecture-overview.png`
-- `screenshots/crm-dashboard.png`
-- `screenshots/client-chat.png`
-- `screenshots/document-center.png`
-- `screenshots/status-json-config.png`
-- `screenshots/tests-135-passed.png`
+![CRM Dashboard](screenshots/crm-dashboard.png)
+
+### Client Chat
+
+![Client Chat](screenshots/client-chat.png)
+
+### Document Workflow
+
+![Document Workflow](screenshots/document-center.png)
+
+### JSON Configuration
+
+![JSON Configuration](screenshots/status-json-config-1.png)
+
+### System Settings UI
+
+![System Settings UI](screenshots/status-json-config-2.png)
+
+### FastAPI / RAG / RBAC Code
+
+![FastAPI RAG Snippet](screenshots/code-fastapi-rbac-rag-1.png)
+
+![RBAC Configuration Snippet](screenshots/code-fastapi-rbac-rag-2.png)
+
+![FastAPI Auth Route Snippet](screenshots/code-fastapi-rbac-rag-3.png)
+
+### Automated Tests
+
+![Automated Tests](screenshots/tests-135-passed.png)
+
 
 ## Demo Flow
 
