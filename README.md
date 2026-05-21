@@ -68,39 +68,37 @@ More details: [docs/architecture.md](docs/architecture.md)
 ## Screenshots
 
 Public demo screenshots are available in the [`screenshots/`](screenshots/) folder.  
-All screenshots use demo data and local test scenarios.
+All screenshots use demo data or sanitized production-like views.
 
-### CRM Dashboard
+### Product Preview
 
-![CRM Dashboard](screenshots/crm-dashboard.png)
+| CRM Dashboard | Document Workflow |
+|---|---|
+| <img src="screenshots/crm-dashboard.png" width="420"> | <img src="screenshots/document-center.png" width="420"> |
 
-### Client Chat
+| Client Chat | JSON Configuration |
+|---|---|
+| <img src="screenshots/client-chat.png" width="300"> | <img src="screenshots/status-json-config-1.png" width="420"> |
 
-![Client Chat](screenshots/client-chat.png)
+| System Settings | Automated Tests |
+|---|---|
+| <img src="screenshots/status-json-config-2.png" width="420"> | <img src="screenshots/tests-135-passed.png" width="420"> |
 
-### Document Workflow
+### Technical Snippets
 
-![Document Workflow](screenshots/document-center.png)
+<details>
+<summary>View code snippets</summary>
 
-### JSON Configuration
+#### FastAPI / RAG
+<img src="screenshots/code-fastapi-rbac-rag-1.png" width="720">
 
-![JSON Configuration](screenshots/status-json-config-1.png)
+#### RBAC / Permissions
+<img src="screenshots/code-fastapi-rbac-rag-2.png" width="720">
 
-### System Settings UI
+#### Auth / CRM Login
+<img src="screenshots/code-fastapi-rbac-rag-3.png" width="720">
 
-![System Settings UI](screenshots/status-json-config-2.png)
-
-### FastAPI / RAG / RBAC Code
-
-![FastAPI RAG Snippet](screenshots/code-fastapi-rbac-rag-1.png)
-
-![RBAC Configuration Snippet](screenshots/code-fastapi-rbac-rag-2.png)
-
-![FastAPI Auth Route Snippet](screenshots/code-fastapi-rbac-rag-3.png)
-
-### Automated Tests
-
-![Automated Tests](screenshots/tests-135-passed.png)
+</details>
 
 
 ## Demo Flow
