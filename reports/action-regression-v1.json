@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "task": "classification",
+  "total": 118,
+  "correct": 118,
+  "missing_predictions": 0,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "latency_ms": {
+    "samples": 118,
+    "mean": 0.01988728815947178,
+    "p50": 0.018900000213761814,
+    "p95": 0.024800001483527012
+  },
+  "by_group": {
+    "active_flow": {
+      "total": 2,
+      "accuracy": 1.0
+    },
+    "ambiguous": {
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "catalog": {
+      "total": 15,
+      "accuracy": 1.0
+    },
+    "complaint": {
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "document": {
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "fallback": {
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "faq": {
+      "total": 12,
+      "accuracy": 1.0
+    },
+    "nonsense": {
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "operator": {
+      "total": 10,
+      "accuracy": 1.0
+    },
+    "order": {
+      "total": 15,
+      "accuracy": 1.0
+    },
+    "prompt_injection": {
+      "total": 10,
+      "accuracy": 1.0
+    }
+  },
+  "per_class": {
+    "answer_direct": {
+      "support": 15,
+      "f1": 1.0
+    },
+    "catalog_lookup": {
+      "support": 20,
+      "f1": 1.0
+    },
+    "continue_document": {
+      "support": 1,
+      "f1": 1.0
+    },
+    "continue_order": {
+      "support": 1,
+      "f1": 1.0
+    },
+    "fallback_rag": {
+      "support": 32,
+      "f1": 1.0
+    },
+    "route_operator": {
+      "support": 22,
+      "f1": 1.0
+    },
+    "start_document": {
+      "support": 12,
+      "f1": 1.0
+    },
+    "start_order": {
+      "support": 15,
+      "f1": 1.0
+    }
+  },
+  "confusion": {
+    "answer_direct": {
+      "answer_direct": 15
+    },
+    "catalog_lookup": {
+      "catalog_lookup": 20
+    },
+    "continue_document": {
+      "continue_document": 1
+    },
+    "continue_order": {
+      "continue_order": 1
+    },
+    "fallback_rag": {
+      "fallback_rag": 32
+    },
+    "route_operator": {
+      "route_operator": 22
+    },
+    "start_document": {
+      "start_document": 12
+    },
+    "start_order": {
+      "start_order": 15
+    }
+  }
+}

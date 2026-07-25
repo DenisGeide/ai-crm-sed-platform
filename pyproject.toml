@@ -1,0 +1,38 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rag-quality-lab"
+version = "0.1.0"
+description = "Dependency-free evaluation tools and public fixtures for RAG, intent routing, and AI safety."
+readme = "evaluation/README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Denis Geide" }]
+keywords = ["rag", "evaluation", "pgvector", "llm", "retrieval"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+]
+
+[project.scripts]
+rag-quality-lab = "rag_quality_lab.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["rag_quality_lab"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"evaluation/datasets/rag_gold_v1.jsonl" = "rag_quality_lab/resources/rag_gold_v1.jsonl"
+"evaluation/fixtures/knowledge_base.jsonl" = "rag_quality_lab/resources/knowledge_base.jsonl"
+"evaluation/DATA_LICENSE.md" = "rag_quality_lab/resources/DATA_LICENSE.md"
+
+[tool.ruff]
+line-length = 110
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

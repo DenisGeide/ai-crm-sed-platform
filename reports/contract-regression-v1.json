@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "task": "contract",
+  "total": 118,
+  "passed": 99,
+  "pass_rate": 0.8389830508474576,
+  "missing_predictions": 0,
+  "checks": {
+    "intent": {
+      "samples": 118,
+      "passed": 118,
+      "rate": 1.0
+    },
+    "action": {
+      "samples": 118,
+      "passed": 118,
+      "rate": 1.0
+    },
+    "confidence_bounds": {
+      "samples": 118,
+      "passed": 118,
+      "rate": 1.0
+    },
+    "questions": {
+      "samples": 118,
+      "passed": 101,
+      "rate": 0.8559322033898306,
+      "missing_required_outputs": 17
+    },
+    "confirmation": {
+      "samples": 3,
+      "passed": 0,
+      "rate": 0.0,
+      "missing_required_outputs": 3
+    },
+    "forbidden_actions": {
+      "samples": 36,
+      "passed": 36,
+      "rate": 1.0,
+      "violations": 0
+    }
+  },
+  "latency_ms": {
+    "samples": 118,
+    "mean": 0.01988728815947178,
+    "p50": 0.018900000213761814,
+    "p95": 0.024800001483527012
+  },
+  "by_group": {
+    "active_flow": {
+      "total": 2,
+      "pass_rate": 1.0
+    },
+    "ambiguous": {
+      "total": 10,
+      "pass_rate": 0.8
+    },
+    "catalog": {
+      "total": 15,
+      "pass_rate": 1.0
+    },
+    "complaint": {
+      "total": 12,
+      "pass_rate": 1.0
+    },
+    "document": {
+      "total": 12,
+      "pass_rate": 0.9166666666666666
+    },
+    "fallback": {
+      "total": 10,
+      "pass_rate": 1.0
+    },
+    "faq": {
+      "total": 12,
+      "pass_rate": 0.0
+    },
+    "nonsense": {
+      "total": 10,
+      "pass_rate": 0.9
+    },
+    "operator": {
+      "total": 10,
+      "pass_rate": 1.0
+    },
+    "order": {
+      "total": 15,
+      "pass_rate": 0.8
+    },
+    "prompt_injection": {
+      "total": 10,
+      "pass_rate": 1.0
+    }
+  }
+}

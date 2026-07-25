@@ -26,6 +26,7 @@ The platform connects customer communication, operator CRM, AI assistance and do
 - DevOps: Docker Compose, app/worker separation, health/readiness endpoints, metrics.
 - Reliability: background jobs, retries, DLQ, backup/restore workflow.
 - Testing: 135+ automated tests passed in local launch verification.
+- Public evaluation: reusable intent and RAG fixtures, Recall@K, MRR, nDCG, macro-F1 and latency reports.
 
 ## Tech Stack
 
@@ -65,24 +66,52 @@ flowchart LR
 
 More details: [docs/architecture.md](docs/architecture.md)
 
+## RAG Quality Lab
+
+The repository includes a runnable, dependency-free evaluation toolkit. It is
+separate from the private commercial backend and can be used with any retriever
+or intent classifier.
+
+```bash
+git clone https://github.com/DenisGeide/ai-crm-sed-platform.git
+cd ai-crm-sed-platform
+python -m pip install -e .
+rag-quality-lab demo
+```
+
+Included public fixtures:
+
+- **118** sanitized intent/action regression cases;
+- **30** bilingual retrieval questions with gold document identifiers;
+- **12** citation and required-fact answer contracts;
+- **12** fictional RU/EN support documents;
+- machine-readable JSON and human-readable Markdown reports;
+- classification accuracy, macro-F1 and full decision-contract checks;
+- Recall@1/3/5, MRR, nDCG@1/3/5, citation checks and p50/p95 latency.
+
+Start with the [RAG Quality Lab guide](evaluation/README.md) or inspect the
+[committed reports](reports/). The bundled token-overlap retriever is only a
+format and integration baseline; it is not presented as the production RAG
+implementation.
+
 ## Screenshots
 
 Public demo screenshots are available in the [`screenshots/`](screenshots/) folder.  
-All screenshots use demo data or sanitized production-like views.
+All retained screenshots use demo data or sanitized production-like views.
+Signed URLs, access tokens and customer records are not shown.
 
 ### Product Preview
 
-| CRM Dashboard | Document Workflow |
+| Document Workflow | System Settings |
 |---|---|
-| <img src="screenshots/crm-dashboard.png" width="420"> | <img src="screenshots/document-center.png" width="420"> |
+| <img src="screenshots/document-center.png" width="420"> | <img src="screenshots/status-json-config-2.png" width="420"> |
 
-| Client Chat | JSON Configuration |
-|---|---|
-| <img src="screenshots/client-chat.png" width="300"> | <img src="screenshots/status-json-config-1.png" width="420"> |
+<details>
+<summary>View sanitized JSON configuration</summary>
 
-| System Settings | Automated Tests |
-|---|---|
-| <img src="screenshots/status-json-config-2.png" width="420"> | <img src="screenshots/tests-135-passed.png" width="420"> |
+<img src="screenshots/status-json-config-1.png" width="720">
+
+</details>
 
 ### Technical Snippets
 
@@ -114,7 +143,19 @@ A short demo scenario is described in [docs/demo-flow.md](docs/demo-flow.md):
 
 ## Public GitHub Note
 
-Most of this project was developed as a local/commercial R&D product. This public repository is intended as a clean showcase: architecture, product description, screenshots, technical snippets and demo materials.
+Most of this project was developed as a local/commercial R&D product. This public
+repository contains the architecture, product description, screenshots, sanitized
+technical examples and a fully reusable evaluation toolkit. It does not contain
+client data, production credentials or private business-specific implementation.
 
-RU: Это публичная showcase-версия проекта. Приватные данные, секреты, production-конфигурации и чувствительная бизнес-логика не публикуются.
+**RU:** Это публичная showcase-версия проекта. Приватные данные, секреты,
+production-конфигурации, документы клиентов и чувствительная бизнес-логика здесь
+не публикуются. Наборы из `evaluation/` синтетические или обезличенные и могут
+использоваться отдельно от коммерческого приложения.
+
+## License
+
+Source code and documentation are available under the
+[Apache License 2.0](LICENSE). Public evaluation fixtures are released under
+[CC0 1.0](evaluation/DATA_LICENSE.md).
 

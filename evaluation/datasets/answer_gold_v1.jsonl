@@ -1,0 +1,12 @@
+{"id":"answer-001","query":"How long does delivery inside Moscow take?","relevant_doc_ids":["delivery-moscow"],"required_facts":["one to three business days"]}
+{"id":"answer-002","query":"Как оплатить заказ юридическому лицу?","relevant_doc_ids":["payment-methods"],"required_facts":["по счёту"]}
+{"id":"answer-003","query":"Можно ли вернуть неиспользованный товар?","relevant_doc_ids":["returns"],"required_facts":["четырнадцати дней","полной комплектации"]}
+{"id":"answer-004","query":"What is needed for a warranty request?","relevant_doc_ids":["warranty"],"required_facts":["order number","photos"]}
+{"id":"answer-005","query":"Монтаж входит в стоимость товара?","relevant_doc_ids":["installation"],"required_facts":["заказывается отдельно"]}
+{"id":"answer-006","query":"What should I do if delivery is damaged?","relevant_doc_ids":["damaged-delivery"],"required_facts":["do not install","photograph"]}
+{"id":"answer-007","query":"Когда появляется трек-номер?","relevant_doc_ids":["order-tracking"],"required_facts":["после передачи","перевозчику"]}
+{"id":"answer-008","query":"Where can I download my invoice?","relevant_doc_ids":["documents"],"required_facts":["Documents section"]}
+{"id":"answer-009","query":"Можно поговорить с оператором?","relevant_doc_ids":["operator"],"required_facts":["в любой момент"]}
+{"id":"answer-010","query":"How do I delete my personal data?","relevant_doc_ids":["privacy"],"required_facts":["support","identity verification"]}
+{"id":"answer-011","query":"Есть ли рассрочка?","relevant_doc_ids":["installments"],"required_facts":["после одобрения"]}
+{"id":"answer-012","query":"Is regional delivery price fixed?","relevant_doc_ids":["delivery-regions"],"required_facts":["destination","package size"]}

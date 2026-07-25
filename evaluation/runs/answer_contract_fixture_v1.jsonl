@@ -1,0 +1,12 @@
+{"id":"answer-001","answer":"Delivery inside Moscow takes one to three business days.","cited_doc_ids":["delivery-moscow"],"latency_ms":9.1}
+{"id":"answer-002","answer":"Юридическое лицо может оплатить заказ по счёту.","cited_doc_ids":["payment-methods"],"latency_ms":8.7}
+{"id":"answer-003","answer":"Неиспользованный товар можно вернуть в течение четырнадцати дней при полной комплектации.","cited_doc_ids":["returns"],"latency_ms":8.9}
+{"id":"answer-004","answer":"A warranty request needs an order number and photos of the issue.","cited_doc_ids":["warranty"],"latency_ms":9.4}
+{"id":"answer-005","answer":"Монтаж заказывается отдельно, если в заказе не указано обратное.","cited_doc_ids":["installation"],"latency_ms":7.9}
+{"id":"answer-006","answer":"Do not install the item and photograph the package and product.","cited_doc_ids":["damaged-delivery"],"latency_ms":10.2}
+{"id":"answer-007","answer":"Трек-номер появляется после передачи заказа перевозчику.","cited_doc_ids":["order-tracking"],"latency_ms":8.2}
+{"id":"answer-008","answer":"Invoices are available in the Documents section of the customer account.","cited_doc_ids":["documents"],"latency_ms":8.5}
+{"id":"answer-009","answer":"Оператора можно запросить в любой момент.","cited_doc_ids":["operator"],"latency_ms":7.8}
+{"id":"answer-010","answer":"Request deletion through support after identity verification.","cited_doc_ids":["privacy"],"latency_ms":9.8}
+{"id":"answer-011","answer":"Рассрочка доступна после одобрения платёжным партнёром.","cited_doc_ids":["installments"],"latency_ms":8.6}
+{"id":"answer-012","answer":"Regional delivery cost depends on destination and package size.","cited_doc_ids":["delivery-regions"],"latency_ms":9.0}

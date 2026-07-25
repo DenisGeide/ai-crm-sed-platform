@@ -1,0 +1,30 @@
+{"id":"rag-001","language":"en","query":"How long does delivery inside Moscow take?","relevant_doc_ids":["delivery-moscow"],"tags":["delivery","timing"]}
+{"id":"rag-002","language":"ru","query":"Сколько занимает доставка по Москве?","relevant_doc_ids":["delivery-moscow"],"tags":["delivery","timing"]}
+{"id":"rag-003","language":"en","query":"Who delivers an order to another region?","relevant_doc_ids":["delivery-regions"],"tags":["delivery","regions"]}
+{"id":"rag-004","language":"ru","query":"Как рассчитывается доставка в другой город?","relevant_doc_ids":["delivery-regions"],"tags":["delivery","regions","price"]}
+{"id":"rag-005","language":"en","query":"Can a business customer pay by invoice?","relevant_doc_ids":["payment-methods"],"tags":["payment","b2b"]}
+{"id":"rag-006","language":"ru","query":"Какими способами можно оплатить заказ?","relevant_doc_ids":["payment-methods"],"tags":["payment"]}
+{"id":"rag-007","language":"en","query":"Is an installment plan available?","relevant_doc_ids":["installments"],"tags":["payment","installments"]}
+{"id":"rag-008","language":"ru","query":"Можно купить товар в рассрочку?","relevant_doc_ids":["installments"],"tags":["payment","installments"]}
+{"id":"rag-009","language":"en","query":"How many days do I have to return an unused item?","relevant_doc_ids":["returns"],"tags":["returns"]}
+{"id":"rag-010","language":"ru","query":"Что требуется для возврата неиспользованного товара?","relevant_doc_ids":["returns"],"tags":["returns"]}
+{"id":"rag-011","language":"en","query":"Where can I find the warranty period?","relevant_doc_ids":["warranty"],"tags":["warranty"]}
+{"id":"rag-012","language":"ru","query":"Какие данные нужны для обращения по гарантии?","relevant_doc_ids":["warranty"],"tags":["warranty"]}
+{"id":"rag-013","language":"en","query":"Is installation included in the product price?","relevant_doc_ids":["installation"],"tags":["installation","price"]}
+{"id":"rag-014","language":"ru","query":"Монтаж нужно заказывать отдельно?","relevant_doc_ids":["installation"],"tags":["installation"]}
+{"id":"rag-015","language":"en","query":"What should I do when a product arrives broken?","relevant_doc_ids":["damaged-delivery","operator"],"tags":["damage","support"]}
+{"id":"rag-016","language":"ru","query":"Товар повредили при доставке, что фотографировать?","relevant_doc_ids":["damaged-delivery"],"tags":["damage","delivery"]}
+{"id":"rag-017","language":"en","query":"Where can I see my current order status?","relevant_doc_ids":["order-tracking"],"tags":["order","tracking"]}
+{"id":"rag-018","language":"ru","query":"Когда появится трек-номер заказа?","relevant_doc_ids":["order-tracking"],"tags":["order","tracking"]}
+{"id":"rag-019","language":"en","query":"Where are invoices and receipts stored?","relevant_doc_ids":["documents"],"tags":["documents"]}
+{"id":"rag-020","language":"ru","query":"Где скачать заявление на возврат?","relevant_doc_ids":["documents","returns"],"tags":["documents","returns"]}
+{"id":"rag-021","language":"en","query":"Can I ask to speak to a human?","relevant_doc_ids":["operator"],"tags":["operator"]}
+{"id":"rag-022","language":"ru","query":"Как связаться с живым оператором по жалобе?","relevant_doc_ids":["operator"],"tags":["operator","complaint"]}
+{"id":"rag-023","language":"en","query":"How can I request deletion of my personal data?","relevant_doc_ids":["privacy"],"tags":["privacy"]}
+{"id":"rag-024","language":"ru","query":"Можно получить экспорт персональных данных?","relevant_doc_ids":["privacy"],"tags":["privacy"]}
+{"id":"rag-025","language":"en","query":"My parcel is damaged and I need a specialist","relevant_doc_ids":["damaged-delivery","operator"],"tags":["damage","operator"]}
+{"id":"rag-026","language":"ru","query":"Нужны чек и документы по заказу","relevant_doc_ids":["documents"],"tags":["documents","order"]}
+{"id":"rag-027","language":"en","query":"Does regional shipping have a fixed price?","relevant_doc_ids":["delivery-regions"],"tags":["delivery","price"]}
+{"id":"rag-028","language":"ru","query":"Гарантия указана в карточке товара?","relevant_doc_ids":["warranty"],"tags":["warranty"]}
+{"id":"rag-029","language":"en","query":"When does shipment tracking become visible?","relevant_doc_ids":["order-tracking"],"tags":["tracking"]}
+{"id":"rag-030","language":"ru","query":"Куда передают спор по документам?","relevant_doc_ids":["operator","documents"],"tags":["operator","documents"]}
