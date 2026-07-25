@@ -2,10 +2,10 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections.abc import Sequence
 from contextlib import ExitStack
 from importlib.resources import as_file, files
 from pathlib import Path
-from typing import Sequence
 
 from .demo import token_overlap_run
 from .io import DatasetError, load_jsonl, write_json, write_jsonl

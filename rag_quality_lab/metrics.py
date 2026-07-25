@@ -3,8 +3,9 @@ from __future__ import annotations
 import math
 import re
 from collections import defaultdict
+from collections.abc import Iterable
 from statistics import mean
-from typing import Any, Iterable
+from typing import Any
 
 from .io import DatasetError, rows_by_id
 
